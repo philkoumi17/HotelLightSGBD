@@ -47,6 +47,6 @@ public class Factory
     
     public static Connexion getDAOConnexion()
     {
-        return ConnexionMySQL.getInstance() ;
+        return ConnexionMySQL.getInstance();
     }
 }
