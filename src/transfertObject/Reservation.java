@@ -119,14 +119,4 @@ public class Reservation
         }
         return false;
     }
-
-    @Override
-    public int hashCode()
-    {
-        int hash = 3;
-        hash = 73 * hash + Objects.hashCode(this.cliRes);
-        hash = 73 * hash + Objects.hashCode(this.chRes);
-        hash = 73 * hash + Objects.hashCode(this.plRes);
-        return hash;
-    }
 }
