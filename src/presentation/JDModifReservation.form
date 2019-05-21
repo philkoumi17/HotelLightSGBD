@@ -56,30 +56,32 @@
                           <Component id="jLabelNewBook" min="-2" pref="532" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jLabelSelectClient" alignment="1" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabelNbPers" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabelDDN" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jComboBoxClient" alignment="0" pref="227" max="32767" attributes="0"/>
-                              <Component id="jTextFieldNbPers" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
-                              <Component id="jDateChooserDateArrivée" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
-                          <Component id="jLabelSelectChambre" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jComboBoxChambre" min="-2" pref="176" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
                           <Component id="jLabelSelectClient1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jTextFieldIDRes" min="-2" pref="53" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="jLabelSelectChambre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jComboBoxChambre" min="-2" pref="227" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabelSelectClient" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelNbPers" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelDDN" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jComboBoxClient" alignment="0" pref="227" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldNbPers" alignment="0" min="-2" pref="112" max="-2" attributes="0"/>
+                                  <Component id="jDateChooserDateArrivée" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
                   <EmptySpace pref="27" max="32767" attributes="0"/>
